@@ -1,0 +1,17 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "rp-notice-block/rp-notice-block",
+  "version": "0.1.0",
+  "title": "Closable Notice Block",
+  "category": "widgets",
+  "icon": "aside",
+  "description": "User can use this block for closable notice",
+  "supports": {
+    "html": false
+  },
+  "textdomain": "rp-notice-block",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}
